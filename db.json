@@ -4,31 +4,21 @@
   "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
   "questions": [
     {
-      "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-      "title": "Como fazer um seletor por id via CSS?",
-      "description": "Essa é pra aquecer",
+      "image": "https://media2.giphy.com/media/QWjLCHKV3x0czyuIq2/giphy.gif?cid=ecf05e47p8shuyt25usgm7yy6hi8vfj1mgxvilvjnnddiu1n&rid=giphy.gif",
+      "title": "Qual o nome do meio de Chandler?",
+      "description": "Ele sempre diz que seu nome é Chandler M. Bing",
       "answer": 2,
-      "alternatives": [
-        ".elemento",
-        "*elemento",
-        "#elemento",
-        "%elemento"
-      ]
+      "alternatives": ["Marcel", "Mondler", "Muriel", "Matthew"]
     },
     {
-      "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-      "title": "Como fazer um background gradiente com css?",
-      "description": "Faz tempo em haha",
+      "image": "https://media4.giphy.com/media/LRfoBTmjtPlSZE8VNf/giphy.gif?cid=ecf05e473z99zvy445ue8abivqp5r50s8mxmacnsudv4duci&rid=giphy.gif",
+      "title": "Em qual ano Emma completa 18 anos de idade?",
+      "description": "Emma é a filha de Rachel e Ross",
       "answer": 0,
-      "alternatives": [
-         "background: linear-gradient(#e66465, #9198e5);",
-         "background: gradient(#e66465, #9198e5);"
-      ]
+      "alternatives": ["2020", "2019", "2021", "2024"]
     }
   ],
-  "external": [
-    ""
-  ],
+  "external": [""],
   "theme": {
     "colors": {
       "primary": "#FF4238",
