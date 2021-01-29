@@ -1,7 +1,7 @@
 {
   "bg": "https://i.pinimg.com/originals/93/8f/6b/938f6b1d9d8c61775416c1d15d5d64c3.jpg",
-  "title": "Quiz CSS da Alura",
-  "description": "Teste os seus conhecimentos sobre CSS e vamos ver quantos layouts você vai deixar de quebrar",
+  "title": "Quiz de FRIENDS",
+  "description": "Teste os seus conhecimentos sobre a série que é um sucesso desde sua estreia até hoje 27 anos depois.",
   "questions": [
     {
       "image": "https://media2.giphy.com/media/QWjLCHKV3x0czyuIq2/giphy.gif?cid=ecf05e47p8shuyt25usgm7yy6hi8vfj1mgxvilvjnnddiu1n&rid=giphy.gif",
@@ -39,7 +39,10 @@
       "alternatives": ["Antropólogo", "Paleontólogo", "Geólogo", "Arqueólogo"]
     }
   ],
-  "external": [""],
+  "external": [
+    "https://aluraquiz-css.omariosouto.vercel.app/",
+    "https://aluraquiz-devsoutinho.omariosouto.vercel.app/"
+  ],
   "theme": {
     "colors": {
       "primary": "#FF4238",

@@ -1,14 +1,15 @@
+/* eslint-disable react/no-array-index-key */
 /* eslint-disable react/jsx-props-no-spreading */
 /* eslint-disable react/prop-types */
 import React from 'react'
 import { useLoading, Circles } from '@agney/react-loading'
-import db from '../db.json'
-import Widget from '../src/components/Widget'
-import QuizLogo from '../src/components/QuizLogo'
-import QuizBackground from '../src/components/QuizBackground'
-import QuizContainer from '../src/components/QuizContainer'
-import AlternativesForm from '../src/components/AlternativesForm'
-import Button from '../src/components/Button'
+import db from '../../db.json'
+import Widget from '../../src/components/Widget'
+import QuizLogo from '../../src/components/QuizLogo'
+import QuizBackground from '../../src/components/QuizBackground'
+import QuizContainer from '../../src/components/QuizContainer'
+import AlternativesForm from '../../src/components/AlternativesForm'
+import Button from '../../src/components/Button'
 
 function ResultWidget({ results }) {
   return (
@@ -18,23 +19,23 @@ function ResultWidget({ results }) {
       <Widget.Content>
         <p>
           Você acertou{' '}
-          {results.reduce((somatoriaAtual, resultAtual) => {
-            const isAcerto = resultAtual === true
+          {/* {results.reduce((somatoriaAtual, resultAtual) => {
+            const isAcerto = resultAtual === true;
             if (isAcerto) {
-              return somatoriaAtual + 1
+              return somatoriaAtual + 1;
             }
-            return somatoriaAtual
-          }, 0)}
+            return somatoriaAtual;
+          }, 0)} */}
           {results.filter((x) => x).length} perguntas
         </p>
-        <ul>
+        {/* <ul>
           {results.map((result, index) => (
-            <li key={`result__${result}`}>
+            <li key={`result__${index}`}>
               #{index + 1} Resultado:
               {result === true ? 'Acertou' : 'Errou'}
             </li>
           ))}
-        </ul>
+        </ul> */}
       </Widget.Content>
     </Widget>
   )

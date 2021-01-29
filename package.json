@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@agney/react-loading": "^0.1.2",
+    "framer-motion": "^3.2.2-rc.1",
     "next": "latest",
     "prop-types": "^15.7.2",
     "react": "^16.8.0",
