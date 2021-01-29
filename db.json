@@ -13,9 +13,30 @@
     {
       "image": "https://media4.giphy.com/media/LRfoBTmjtPlSZE8VNf/giphy.gif?cid=ecf05e473z99zvy445ue8abivqp5r50s8mxmacnsudv4duci&rid=giphy.gif",
       "title": "Em qual ano Emma completa 18 anos de idade?",
-      "description": "Emma é a filha de Rachel e Ross",
+      "description": "Emma é a filha de Rachel e Ross.",
       "answer": 0,
       "alternatives": ["2020", "2019", "2021", "2024"]
+    },
+    {
+      "image": "https://media0.giphy.com/media/Y1MS8EindQVtImg1c0/giphy.gif",
+      "title": "Em que ano FRIENDS foi lançado?",
+      "description": "A série durou 10 temporadas.",
+      "answer": 1,
+      "alternatives": ["1997", "1994", "2000", "1992"]
+    },
+    {
+      "image": "https://media3.giphy.com/media/kz1G2oijlyFhKMFeh9/giphy.gif?cid=ecf05e47eg2qo7q56xtnsuq70378xz3ja6ugaeb5ibj37k6g&rid=giphy.gif",
+      "title": "Qual o nome da irmã gêmea de Phoebe Buffay?",
+      "description": "A sua irmã aparece pela primeira vez no episodio 16 da 1ª temporada.",
+      "answer": 2,
+      "alternatives": ["Janice", "Susan", "Ursula", "Emily"]
+    },
+    {
+      "image": "https://media4.giphy.com/media/3ohs859S90sBICyLde/giphy.gif?cid=ecf05e47icvexlrst8n1vxbaobjs9krbr7kkthufpjtxpnvi&rid=giphy.gif",
+      "title": "Qual é a profissão de Ross Geller?",
+      "description": "Ele se orgulha muito de seu título de PhD.",
+      "answer": 1,
+      "alternatives": ["Antropólogo", "Paleontólogo", "Geólogo", "Arqueólogo"]
     }
   ],
   "external": [""],
