@@ -53,14 +53,14 @@ export default function Home() {
             </form>
           </Widget.Content>
         </Widget>
-        <Widget>
+        {/* <Widget>
           <Widget.Header>
             <h1>Quizes da Galera</h1>
           </Widget.Header>
           <Widget.Content>
             <p>lorem ipsum dolor sit amet, consectetur adip</p>
           </Widget.Content>
-        </Widget>
+        </Widget> */}
         <Footer />
       </QuizContainer>
       <GitHubCorner projectUrl='https://github.com/isabela-lima' />
